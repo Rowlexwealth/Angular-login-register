@@ -14,6 +14,7 @@ export class QualityComponent implements OnInit {
   showImage: boolean = false;
   errorMessage: string = '';
 
+  // Filter
   private _listFilter: string = '';
   get listFilter(): string {
     return this._listFilter;
